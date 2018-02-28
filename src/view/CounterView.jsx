@@ -4,7 +4,7 @@ import Counter from "../models/Counter";
 
 const CounterView = {
   view: () => (
-    <div class="counter">
+    <div class="container">
       <Header />
       <button onclick={Counter.increment}>{Counter.count}</button>
     </div>

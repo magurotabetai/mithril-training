@@ -14,6 +14,15 @@ const Header = {
           <span />
         </div>
       </div>
+
+      <div class="navbar-menu">
+        <a href="/counter" class="navbar-item" oncreate={m.route.link}>
+          Counter
+        </a>
+        <a href="/tweetbox" class="navbar-item" oncreate={m.route.link}>
+          TweetBox
+        </a>
+      </div>
     </nav>
   )
 };
