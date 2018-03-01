@@ -22,6 +22,9 @@ const Header = {
         <a href="/tweetbox" class="navbar-item" oncreate={m.route.link}>
           TweetBox
         </a>
+        <a href="/todo" class="navbar-item" oncreate={m.route.link}>
+          Todo
+        </a>
       </div>
     </nav>
   )
